@@ -1,0 +1,14 @@
+<package>
+  <description brief="rapiro_teleop">
+
+     rapiro_teleop
+
+  </description>
+  <author>pi</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/rapiro_teleop</url>
+
+</package>
+
+

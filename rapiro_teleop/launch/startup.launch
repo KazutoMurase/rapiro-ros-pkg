@@ -1,0 +1,6 @@
+<launch>
+<master auto="start" />
+<node pkg="rapiro_teleop" name="send_commands" type="send_commands.py" />
+<node pkg="roswww" type="webserver.py" name="roswww" output="screen"/>
+<include file="$(find rosbridge_server)/rosbridge_websocket.launch" />
+</launch>

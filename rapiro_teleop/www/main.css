@@ -1,0 +1,8 @@
+button {
+    width: 110px;
+}
+div#main-window {
+    text-align:center;
+    width: 80%;
+    margin: 0 auto;
+}

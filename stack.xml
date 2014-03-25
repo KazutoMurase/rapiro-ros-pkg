@@ -1,0 +1,8 @@
+<stack>
+  <description brief="rapiro-ros-pkg">rapiro-ros-pkg</description>
+  <author>Maintained Kazuto Murase</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/rapiro-ros-pkg</url>
+  <depend stack="ros" />
+</stack>

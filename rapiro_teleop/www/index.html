@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+	  type="text/css" href="main.css" />
+    <link rel="stylesheet"
+          href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css"
+          />
+    <title>RapiroTeleop</title>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> 
+    <script src="lib/ros3djs/include/EventEmitter2/eventemitter2.js"></script>
+    <script type="text/javascript"
+            src="lib/ros3djs/include/roslibjs/roslib.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+  </head>
+  <body onLoad="init()">
+    <div id="main-window">
+    <h1>RAPIRO Teleop</h1>
+    <img id="stream" src="" />
+
+    <div id="basic_command">
+      <table>
+	<tr>
+	  <td>
+	  </td>
+	  <td>
+	  <button id="stop">STOP</button>
+	  </td>
+      <tr/>
+      <tr>
+	<td>
+      <button id="move_forward">Move Forward</button>
+      </td>
+	<td>
+      <button id="move_backward">Move Backward</button>
+      </td>
+	<td>
+      <button id="turn_left">Turn Left</button>
+      </td>
+      <tr/>
+      <tr>
+	<td>
+      <button id="turn_right">Turn Right</button>
+      </td>
+	<td>
+      <button id="hello">Hello</button>
+      </td>
+	<td>
+      <button id="goodbye">GoodBye</button>
+      </td>
+      <tr/>
+      <tr>
+	<td>
+      <button id="happy">Happy</button>
+      </td>
+	<td>
+      <button id="cheer">Cheer</button>
+      </td>
+	<td>
+      <button id="shake_hands">ShakeHands</button>
+      </td>
+      </tr>
+      </table>
+    </div>
+    </div>
+  </body>
+</html>
